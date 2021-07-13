@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding: 1% 10% 5%;
+  }
+
+  .colored-sec {
+    background-color: #FD7F20;
+    color: #fff;
+  }
+  
+  .white-sec {
+    background-color: white;
+  }
+
+  .navbar {
+    background-color: white;
+    position: fixed;
+    padding: 1% 10% 1%;
+    width: 100%;
+  }
+
+  #title .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #FD7F20;
+  }
+
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+  }
+
+  .title-image {
+    margin-top: 5rem;
+    position: static;
+    width: 70%;
+  }
+
+  @media (max-width: 1028px) {
+    .title-image {
+        width: 100%;
+      }
+
+  }
+
+  
+
+ .about-image {
+    width: 100%;
+    border-radius: 3%;
+    margin: 0 0 2rem;
+ }
+  
+ .aboutcol {
+     padding: 3rem;
+ }
